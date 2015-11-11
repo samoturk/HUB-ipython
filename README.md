@@ -6,6 +6,7 @@ BioMed X, Im Neuenheimer feld 583, Heidelbeg, mid January 2016
 
 #### Current plans are to include in this:
 
+* short intro about BioMed X
 * an ice-breaker - maybe the 'classic' standing in a line/grid to describe our experience coding, which we can also use for teaming people up for later activities - a group of experienced coders goes to the part of the room where people haven't done any coding before, and we find experienced partners for each of them
 * a demo from Samo of IPython in this chemoinformatic context
 * maybe someone else demos something similar using a different language (R? Perl?)
@@ -18,3 +19,13 @@ angle we'd use to publicise the event would be:
 * chance to try out pair programming
 
 For this, we'll ideally have a bunch of people joining the event who will bring their own laptops, have appropriate software set up and running, so that we have enough laptops to pair-program with everyone - if not, maybe we try doing it in groups of 3. 
+
+### TODO
+- [ ] prepare intro notebook
+- [ ] document dependencies
+- [ ] install instructions
+- [ ] list optional chemo/bioinfo and visualisation libs
+- [ ] check how to make jupyter work with other programming languages
+- [ ] docker scripts
+- [ ] guest wifi vouchers 
+- [ ] buy beer

@@ -2,8 +2,13 @@
 HUB (Heidelberg Unseminars in Bioinformatics) about IPython and chemoinformatics
 
 ## Location and date
-BioMed X, Im Neuenheimer feld 583, Heidelbeg, mid January 2016
+BioMed X, Im Neuenheimer feld 583, Heidelbeg, 21 January 2016
 
+### How to run code here
+Pair programming presentation
+```bash
+jupyter nbconvert Pair\ programming.ipynb --to slides --post serve --ServePostProcessor.port=8910
+```
 #### Current plans are to include in this:
 
 * short intro about BioMed X

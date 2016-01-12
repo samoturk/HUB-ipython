@@ -1,19 +1,24 @@
 # HUB-ipython
-HUB (Heidelberg Unseminars in Bioinformatics) about IPython and chemoinformatics
-
-## Location and date
+##HUB (Heidelberg Unseminars in Bioinformatics) about IPython and chemoinformatics
+This repository contains material for [HUB 21](http://www.hub-hub.de/wordpress/?tribe_events=hub-21-interactive-notebooks-try-out-programming-jupyteripython-chemoinformatics)
+  
+### Location and date
 BioMed X, Im Neuenheimer feld 583, Heidelbeg, 21 January 2016
 
 ### How to run code here
-Pair programming presentation
+I recommend [Anaconda](https://www.continuum.io/downloads) Python distribution with Python 2.7. In Anaconda terminal type `jupyter notebook` and navigate to folder with notebooks.  
+  
+If you can't install Python on your computer you can use [tmpnb.org](tmpnb.org) to experiment with Jupyter.
+  
+Pair programming presentation can be converted to html and served with:
 ```bash
 jupyter nbconvert Pair\ programming.ipynb --to slides --post serve --ServePostProcessor.port=8910
 ```
-#### Current plans are to include in this:
+#### Current plans are to include this:
 
 * short intro about BioMed X
 * an ice-breaker - maybe the 'classic' standing in a line/grid to describe our experience coding, which we can also use for teaming people up for later activities - a group of experienced coders goes to the part of the room where people haven't done any coding before, and we find experienced partners for each of them
-* a demo from Samo of IPython in this chemoinformatic context
+* a demo from Samo of IPython in chemoinformatic context
 * maybe someone else demos something similar using a different language (R? Perl?)
 * pair-programming together, using examples from [Rosalind](http://rosalind.info/problems/locations/) exercises (and some additional [chemoinfo](exercises/README.md) excercises)
 

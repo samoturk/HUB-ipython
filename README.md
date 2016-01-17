@@ -20,7 +20,7 @@ jupyter nbconvert Pair\ programming.ipynb --to slides --post serve --ServePostPr
 * an ice-breaker - maybe the 'classic' standing in a line/grid to describe our experience coding, which we can also use for teaming people up for later activities - a group of experienced coders goes to the part of the room where people haven't done any coding before, and we find experienced partners for each of them
 * a demo from Samo of IPython in chemoinformatic context
 * maybe someone else demos something similar using a different language (R? Perl?)
-* pair-programming together, using examples from [Rosalind](http://rosalind.info/problems/locations/) exercises (and some additional [chemoinfo](exercises/README.md) excercises)
+* pair-programming together, using examples from [Rosalind](http://rosalind.info/problems/locations/)
 
 angle we'd use to publicise the event would be:
 
@@ -32,10 +32,8 @@ For this, we'll ideally have a bunch of people joining the event who will bring 
 
 ### TODO
 - [ ] prepare intro notebook
-- [ ] document dependencies
-- [ ] install instructions
+- [X] install instructions
 - [ ] list optional chemo/bioinfo and visualisation libs
-- [ ] check how to make jupyter work with other programming languages
-- [ ] docker scripts
+- [X] check how to make jupyter work with other programming languages
 - [ ] guest wifi vouchers 
 - [ ] buy beer

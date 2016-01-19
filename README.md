@@ -5,10 +5,11 @@ This repository contains material for [HUB 21](http://www.hub-hub.de/wordpress/?
 ### Location and date
 BioMed X, Im Neuenheimer feld 583, Heidelbeg, 21 January 2016
 
-### How to run code here
+### How to run code from this repo
 I recommend [Anaconda](https://www.continuum.io/downloads) Python distribution with Python 2.7. In Anaconda terminal type `jupyter notebook` and navigate to folder with notebooks.  
+You can install [RDKit](http://www.rdkit.org/) (chemoinformatics library) with `conda install -c https://conda.anaconda.org/rdkit rdkit`
   
-If you can't install Python on your computer you can use [tmpnb.org](tmpnb.org) to experiment with Jupyter.
+If you can't install Python on your computer you can use [tmpnb.org](tmpnb.org) to experiment with Jupyter (rdkit is not available in tmpnb.org).
   
 Pair programming presentation can be converted to html and served with:
 ```bash
